@@ -10,6 +10,7 @@ body {
 
 header {
     text-align: center;
+    background-color: #f0f2f2;
 }
 
 .nav-list {
@@ -32,8 +33,14 @@ footer {
     justify-content: space-evenly;
 }
 
-footer p {
+footer p,
+footer a {
     margin-bottom: 0;
+    padding: 0px;
+}
+
+h2 {
+    padding-top: 15px;
 }
 
 h2,
@@ -44,7 +51,79 @@ p {
 div {
     border-width: 2px;
     border-style: solid;
-    border-color: #007bff;
-    padding: 10px;
+    border-color: #29759d;
+    padding: 0px;
     margin: 200px;
+}
+
+p {
+    padding-top: 16px;
+}
+
+a:any-link,
+a.nohoveffect,
+a.nohoveffect:hover {
+    color: #29759d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer+a:any-link,
+a.nohoveffect2,
+a.nohoveffect2:hover {
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.about>p {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.contact {
+    margin: 0px;
+    background-color: #f0f2f2;
+    border-width: 200px;
+    border-color: #f0f2f2;
+}
+
+.about {
+    margin: 0px;
+    background-color: #29759d;
+    color: #f0f2f2;
+    border-color: #29759d;
+    border-width: 200px;
+    outline: #0d0d0d 5px;
+}
+
+.active {
+    background-color: #f0f2f2;
+}
+
+.infocards {
+    display: flex;
+    flex-direction: row;
+    border-color: white;
+    justify-content: space-around;
+    margin: 100px;
+}
+
+#card1,
+#card2,
+#card3 {
+    margin: 0px;
+    padding: 25px;
+    flex: 1 1 0px;
+}
+
+#card1>p:first-child,
+#card2>p:first-child,
+#card3>p:first-child {
+    font-weight: bold;
+}
+
+#card1,
+#card2 {
+    margin-right: 25px;
 }
