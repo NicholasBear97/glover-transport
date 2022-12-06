@@ -44,6 +44,7 @@ h2 {
 }
 
 h2,
+h3,
 p {
     text-align: center;
 }
@@ -53,7 +54,7 @@ div {
     border-style: solid;
     border-color: #29759d;
     padding: 0px;
-    margin: 200px;
+    margin: 150px;
 }
 
 p {
@@ -62,7 +63,9 @@ p {
 
 a:any-link,
 a.nohoveffect,
-a.nohoveffect:hover {
+a.nohoveffect:hover,
+h3>a.nohoveeffect,
+h3>a.nohoveeffect:hover {
     color: #29759d;
     font-weight: bold;
     text-decoration: none;
@@ -84,7 +87,7 @@ a.nohoveffect2:hover {
 .contact {
     margin: 0px;
     background-color: #f0f2f2;
-    border-width: 200px;
+    border-width: 50px;
     border-color: #f0f2f2;
 }
 
@@ -93,7 +96,7 @@ a.nohoveffect2:hover {
     background-color: #29759d;
     color: #f0f2f2;
     border-color: #29759d;
-    border-width: 200px;
+    border-width: 100px;
     outline: #0d0d0d 5px;
 }
 
@@ -126,4 +129,27 @@ a.nohoveffect2:hover {
 #card1,
 #card2 {
     margin-right: 25px;
+}
+
+.home,
+div#cashapp,
+div#squarelink {
+    margin: 75px;
+}
+
+#payment {
+    margin: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+div#cashapp,
+div#squarelink {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+div#cashapp {
+    margin-bottom: 0px;
 }
