@@ -153,3 +153,8 @@ div#squarelink {
 div#cashapp {
     margin-bottom: 0px;
 }
+
+img {
+    width: 500px;
+    height: auto;
+}
