@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+<url>
+    <loc>https://glovertransport.com/index.html</loc>
+    <lastmod>2022-12-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1</priority>
+
+    <loc>https://glovertransport.com/paymentpage.html</loc>
+    <lastmod>2022-12-19</lastmod>
+    <changefreq>daily</changefreq>
+
+    <loc>https://glovertransport.com/index.html#about</loc>
+    <lastmod>2022-12-19</lastmod>
+    <changefreq>daily</changefreq>
+
+    <loc>https://glovertransport.com/index.html#contact</loc>
+    <lastmod>2022-12-19</lastmod>
+    <changefreq>daily</changefreq>
+    
+    <loc>https://glovertransport.com/index.html</loc>
+    <image:image>
+    <image:loc>https://glovertransport.com/glover-logo.png</image:loc>
+    </image:image>
+</url>
+
+</urlset>
