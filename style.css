@@ -184,14 +184,16 @@
 @media (max-width: 599px) {
 
     header {
-        margin-top: 50px;
+        padding-top: 10px;
+        background-color: #f0f2f2;
     }
 
     img {
         margin: auto;
-        max-width: 25%;
+        max-width: 50%;
         display: block;
         text-align: center;
+        margin-bottom: 5px;
     }
 
     body {
@@ -202,7 +204,7 @@
 
     p {
         text-align: center;
-        font-size: 13px;
+        font-size: 14px;
         margin: 17px;
     }
 
@@ -229,15 +231,51 @@
         flex-direction: row;
         justify-content: space-evenly;
         padding: 0px;
-        font-size: 12px;
+        font-size: 14px;
     }
 
     nav {
-        margin-bottom: 100px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+    .infocards {
+        display: flex;
+        flex-direction: column;
+        border-color: white;
+        justify-content: space-around;
+    }
+
+    #card1,
+    #card2,
+    #card3 {
+        border-width: 2px;
+        border-style: solid;
+        border-color: #29759d;
+        margin: 15px;
+        padding: 10px;
+    }
+
+    #card1>p:first-child,
+    #card2>p:first-child,
+    #card3>p:first-child {
+        font-weight: bold;
     }
 
     div#about.about {
-        margin-bottom: -20px;
+        background-color: #29759d;
+        color: white;
+        padding-top: 15px;
+    }
+
+    #about>p {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    div#contact.contact {
+        background-color: #f0f2f2;
+        padding-top: 12px;
     }
 
     .home>h2,
@@ -253,21 +291,24 @@
 
     #cashapp,
     #squarelink {
-        margin: 30px;
+        border-width: 2px;
+        border-style: solid;
+        border-color: #29759d;
+        margin: 15px;
+        padding: 10px;
     }
 
     #squarelink {
-        margin-bottom: -27px;
+        margin-top: 30px;
     }
 
-    .infocards,
-    .contact,
     li:nth-child(even) {
         display: none;
     }
 
     #payment.payment {
         text-align: center;
+        margin-bottom: 117px;
     }
 
     body>footer {
@@ -305,6 +346,7 @@
     }
 
     footer {
-        margin-top: 175px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
